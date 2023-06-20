@@ -1,0 +1,106 @@
+/* HEADER */
+header {
+    background-color:  hwb(295 0% 87%);
+    padding: 10px;
+    border-radius: 3px;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    font-style: normal white;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+  } 
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px;
+    margin-top: -13px;
+
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fafafa;
+    padding: 8px -5px;
+    border-radius: 3px;
+
+  }
+  
+  nav ul li a:hover {
+    background-color: #f0efef;
+    color: #5a5454;
+    border-radius: 3;
+    padding: 5px;
+    margin-top: -9px;
+
+  }
+  
+  .menu-right {
+    float: right;
+  
+  }
+  #formmenu {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 3px;
+    
+  }
+  h3{
+    font-style: normal white;
+    font: white;
+    float: right;
+    margin-left: -100px;
+  }
+  
+  
+  /* CORPO */
+.conteudo{
+  margin: 0px 5% 0 10%;
+  float: center;
+}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(209, 209, 209, 0.2);
+    width: 300px;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20px;
+    border: gray solid 2px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    font-style: bold;
+  }
+  
+  .card .price {
+    color: rgb(87, 6, 80);
+    font-size: 22px;
+  }
+  
+  .card .botao {
+    outline: 0;
+    color: rgb(100, 5, 45);
+    border: 0px;
+    background-color: #f7e4f7;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    height: 30px;
+  }
+  
+  .card .botao:hover {
+    opacity: 0.7;
+
+  }
+.tituloprod{
+  font-size: 22;
+}
