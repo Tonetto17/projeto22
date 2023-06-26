@@ -41,8 +41,8 @@ include("conectadb.php");
 <body>
     <div>
         <ul class="menu" >
-            <li><a href="cadastrausuario.php">CADASTRA USUARIO</a></li>
-            <li><a href="listausuario.php">LISTA USUARIO</a></li>
+            <li><a href="cadastrausuario.php">CADASTRA USUÁRIO</a></li>
+            <li><a href="listausuario.php">LISTA USUÁRIO</a></li>
             <li><a href="cadastraproduto.php">CADASTRA PRODUTO</a></li>
             <li><a href="listaproduto.php">LISTA PRODUTO</a></li>
             <li><a href="listacliente.php">LISTA CLIENTE</a></li>
