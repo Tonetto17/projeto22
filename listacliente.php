@@ -78,7 +78,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="container">
             <table border="1">
                 <tr>
+                    <th>CPF</th>
                     <th>NOME</th>
+                    <th>DATA DE NASCIMENTO</th>
+                    <th>TELEFONE</th>
+                    <th>LOGRADOURO</th>
+                    <th>NÚMERO</th>
+                    <th>CIDADE</th>
                     <th>ALTERAR DADOS</th>
                     <th>ATIVO?</th>
                 </tr>
@@ -88,7 +94,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     while($tbl = mysqli_fetch_array($retorno)){
                 ?>
                     <tr>
-                        <td><?= $tbl[2]?></td> <!--TRAZ SOMENTE A COLUNA 1 DO BANCO [NOME]-->
+                        <td><?= $tbl[1]?></td> <!--TRAZ SOMENTE A COLUNA 1 DO BANCO [NOME]-->
+                        <td><?= $tbl[2]?></td>
+                        <td><?= $tbl[4]?></td>
+                        <td><?= $tbl[5]?></td>
+                        <td><?= $tbl[6]?></td>
+                        <td><?= $tbl[7]?></td>
+                        <td><?= $tbl[8]?></td>
                         <td><a href="alteracliente.php?id=<?=$tbl[0]?>"><input type="button" value="ALTERAR DADOS"></a></td> 
                         <td><?=$check = ($tbl[9] == 's')?"SIM":"NÃO"?></td><!--VALIDA S OU N E ESCREVE "SIM" E "NÃO"-->
                     </tr>
