@@ -4,10 +4,10 @@ html{
 
 .menu {
   list-style-type: none; /* Remove os marcadores de lista */
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 0px;
   background-color: hwb(0 95% 5%); /* Define a cor de fundo do menu */
-  border-radius: 10px;
+  border-radius: 6px 0px 0px 6px;
 }
 
 .menu li {
@@ -16,15 +16,15 @@ html{
 
 .menu li a {
   display: block; /* Define os links como elementos de bloco para ocuparem todo o espaço horizontal disponível */
-  padding: 8px 16px; /* Adiciona espaçamento interno aos links */
+  padding: 20px; /* Adiciona espaçamento interno aos links */
   text-decoration: none; /* Remove a decoração de texto padrão (sublinhado) */
   color: #333; /* Define a cor do texto dos links */
+  border-right: 1px dashed #555555;
 }
 
 .menu li a:hover {
   background-color: #550469; /* Define a cor de fundo ao passar o mouse sobre os links */
   color: #fff; /* Define a cor do texto ao passar o mouse sobre os links */
-  border-radius: 10px;
 }
 
 .menuloja{
@@ -41,6 +41,7 @@ html{
 .profile{
 float: right;
 margin: 7px 5px 0 0;
+padding: 12px;
 }
 
 /* PADRONIZAÇÃO DA TAG FORM */
