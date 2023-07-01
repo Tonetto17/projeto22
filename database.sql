@@ -1,5 +1,5 @@
-drop table clientes;
-drop table usuarios;
+-- drop table clientes;
+-- drop table usuarios;
 
 create table usuarios (
   usu_id int(11) not null primary key auto_increment,
