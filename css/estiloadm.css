@@ -47,7 +47,7 @@ padding: 12px;
 
 /* PADRONIZAÇÃO DA TAG FORM */
 form{
-  background-color: rgb(205, 191, 211);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin: 30px auto;
@@ -68,7 +68,7 @@ input[type="text"],
   input[type="date"],
   input[type="file"],
   textarea {
-    background-color: #e0dceb;
+    background-color: #c6c2d1;
     border: none;
     border-radius: 3px;
     box-sizing: border-box;
