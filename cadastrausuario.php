@@ -38,7 +38,7 @@ include("conectadb.php");
     <link rel="stylesheet" href="./css/estiloadm.css">
     <title>CADASTRO DE USUARIO</title>
 </head>
-<body>
+<body>+
     <div>
         <ul class="menu" >
         <li><a href="cadastrausuario.php">CADASTRA USUÁRIO</a></li>
